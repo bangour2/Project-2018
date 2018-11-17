@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\pre-dexed\debug\classes-f55c49291412cb571d38072cef71a62e9378fa44.jar" />
+    </item>
+    <item
+        jar="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-62b9c4c9f73735e278d748d58e6cf36035182d50.jar" />
+    </item>
+    <item
+        jar="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\pre-dexed\debug\classes-b1958645aba5bd0e04555c30ab659433ee500520.jar" />
+    </item>
+    <item
+        jar="C:\Users\bango_000\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\bango_000\Google Drive\oops\android\code\FC\teacher_parent\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-381711f03a2d13b85bf3481f5f89e93b0ee9d924.jar" />
+    </item>
+
+</items>

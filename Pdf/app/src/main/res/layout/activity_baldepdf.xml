@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/db1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/db1_roo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".baldepdf">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <bango_000.mypdf.CanvasView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/signature_canvas"
+        android:layout_width="625dp"
+        android:layout_height="115dp"
+        app:layout_marginTopPercent="60%"
+        app:layout_marginLeftPercent="0%"
+        android:visibility="visible"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

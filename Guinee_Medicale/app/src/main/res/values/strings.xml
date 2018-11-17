@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Guinee Medical</string>
+    <string name="title_admin">Admin</string>
+    <string name="title_home">Medecin</string>
+    <string name="title_dashboard">Patient</string>
+    <string name="title_notifications">Pharmacie</string>
+    <string name="title_activity_login_medecin">Medecin</string>
+    <!-- Strings related to login -->
+    <string name="prompt_password">mot de passe</string>
+    <string name="prompt_numero">numero attestation</string>
+    <string name="prompt_nom">nom</string>
+    <string name="action_numero">numero</string>
+    <string name="action_nom">nom</string>
+    <string name="action_sign_in">enregistrer le Medecin</string>
+    <string name="action_update">mise a jour mot de passe</string>
+    <string name="action_update_numero">mise a jour medecin</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Entrez</string>
+    <string name="dummy_content"></string>
+
+    <string name="date_button_set">Date de naissance</string>
+    <string name="date_label_set">Appuyez sur le bouton pour régler la date</string>
+
+    <string name="spinner_title"></string>
+</resources>

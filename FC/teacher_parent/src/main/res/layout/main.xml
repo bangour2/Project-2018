@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/teacher"
+            android:layout_width="match_parent"
+            android:layout_height="170px"
+            android:text="Welcome To Parents In Touch "
+            android:background="#b09aff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:orientation="horizontal"
+            android:background="#efffd0">
+
+            <Spinner
+                android:id="@+id/classid"
+                android:layout_width="200px"
+                android:layout_height="150px"
+                android:entries="@array/country_arrays"
+                android:prompt="@string/country_prompt" />
+
+            <NumberPicker
+                android:layout_width="200px"
+                android:layout_height="150px"
+                android:id="@+id/numberofstudents" />
+
+<!--            <EditText
+            android:id="@+id/numberofstudents"
+            android:layout_width="200px"
+            android:layout_height="150px"
+            android:hint="# of students"
+            android:ems="10" >
+            <requestFocus />
+        </EditText> -->
+
+        <Button
+            android:id="@+id/student"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:text="register students" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ksu" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
